@@ -13,7 +13,6 @@ library Counters {
         uint256 _value;
     }
     
-    // 왜 안전하지?
     // find current value / storage => keep tracking(not vanishing) on struct Counter
     function current(Counter storage counter) view internal returns(uint256) {
         return counter._value;
