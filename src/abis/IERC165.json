@@ -30,20 +30,20 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.0 < 0.9.0;\r\n\r\n// interface is a guideline of ethereum smart contract. By using supportsInterface, we can comunicate each other Dapps.\r\ninterface IERC165 {\r\n    /// @notice Query if a contract implements an interface\r\n    /// @param interfaceID The interface identifier, as specified in ERC-165\r\n    /// @dev Interface identification is specified in ERC-165. This function\r\n    ///  uses less than 30,000 gas.\r\n    /// @return `true` if the contract implements `interfaceID` and\r\n    ///  `interfaceID` is not 0xffffffff, `false` otherwise\r\n    function supportsInterface(bytes4 interfaceID) external view returns (bool);\r\n}",
-  "sourcePath": "C:\\Users\\hyean\\Desktop\\NFT-market-website\\src\\contracts\\interfaces\\IERC165.sol",
+  "sourcePath": "C:\\Users\\hyean\\Desktop\\NFT-market-web\\src\\contracts\\interfaces\\IERC165.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/interfaces/IERC165.sol",
     "exportedSymbols": {
       "IERC165": [
-        706
+        975
       ]
     },
-    "id": 707,
+    "id": 976,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 697,
+        "id": 966,
         "literals": [
           "solidity",
           ">=",
@@ -54,7 +54,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "33:32:7"
+        "src": "33:32:9"
       },
       {
         "abstract": false,
@@ -63,42 +63,42 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 706,
+        "id": 975,
         "linearizedBaseContracts": [
-          706
+          975
         ],
         "name": "IERC165",
-        "nameLocation": "200:7:7",
+        "nameLocation": "200:7:9",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "documentation": {
-              "id": 698,
+              "id": 967,
               "nodeType": "StructuredDocumentation",
-              "src": "215:378:7",
+              "src": "215:378:9",
               "text": "@notice Query if a contract implements an interface\n @param interfaceID The interface identifier, as specified in ERC-165\n @dev Interface identification is specified in ERC-165. This function\n  uses less than 30,000 gas.\n @return `true` if the contract implements `interfaceID` and\n  `interfaceID` is not 0xffffffff, `false` otherwise"
             },
             "functionSelector": "01ffc9a7",
-            "id": 705,
+            "id": 974,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "supportsInterface",
-            "nameLocation": "608:17:7",
+            "nameLocation": "608:17:9",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 701,
+              "id": 970,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 700,
+                  "id": 969,
                   "mutability": "mutable",
                   "name": "interfaceID",
-                  "nameLocation": "633:11:7",
+                  "nameLocation": "633:11:9",
                   "nodeType": "VariableDeclaration",
-                  "scope": 705,
-                  "src": "626:18:7",
+                  "scope": 974,
+                  "src": "626:18:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -106,10 +106,10 @@
                     "typeString": "bytes4"
                   },
                   "typeName": {
-                    "id": 699,
+                    "id": 968,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
-                    "src": "626:6:7",
+                    "src": "626:6:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes4",
                       "typeString": "bytes4"
@@ -118,21 +118,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "625:20:7"
+              "src": "625:20:9"
             },
             "returnParameters": {
-              "id": 704,
+              "id": 973,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 703,
+                  "id": 972,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 705,
-                  "src": "669:4:7",
+                  "scope": 974,
+                  "src": "669:4:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -140,10 +140,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 702,
+                    "id": 971,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "669:4:7",
+                    "src": "669:4:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -152,21 +152,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "668:6:7"
+              "src": "668:6:9"
             },
-            "scope": 706,
-            "src": "599:76:7",
+            "scope": 975,
+            "src": "599:76:9",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 707,
-        "src": "190:488:7",
+        "scope": 976,
+        "src": "190:488:9",
         "usedErrors": []
       }
     ],
-    "src": "33:645:7"
+    "src": "33:645:9"
   },
   "compiler": {
     "name": "solc",
@@ -174,7 +174,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.11",
-  "updatedAt": "2023-02-07T11:26:54.612Z",
+  "updatedAt": "2023-02-21T08:09:08.619Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

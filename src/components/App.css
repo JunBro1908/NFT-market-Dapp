@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    animation: backBG 15s ease infinite;
+    background: linear-gradient(90deg, rgba(160,143,191,1) 15%, rgba(121,137,205,1) 45%, rgba(187,117,244,1) 85%);
+    background-size: 200% 200%;
+}
+
+@keyframes backBG {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+.token {
+    width:300px;
+    box-shadow: 0 8px 16px rgb(151, 150, 150);
+    padding: 2px 16px;
+    margin: 16px;
+    border-radius: 8px;
+}
+
+img{
+    border: 0.3px black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-top: 10px;
+}
